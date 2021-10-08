@@ -10,7 +10,9 @@ namespace RegexPatterns
             RegexExmp pinCode = new RegexExmp();
 
             // valid pincode //
-            pinCode.IsValidPinCode("400086");
+           // pinCode.IsValidPinCode("400086");
+            // Test case 2 for adding charcter before the pin
+            pinCode.IsValidPinCode("A400086");
             Console.ReadLine();
         }
     }
