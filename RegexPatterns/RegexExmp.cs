@@ -18,10 +18,10 @@ namespace RegexPatterns
         // matched the ReGex
                if (Regex.IsMatch(pinCode,POSTAL_PIN_CHECK))
                {
-                Console.WriteLine("Pincode is valid");
+                Console.WriteLine(" Pincode is valid ");
                 return;
                }
-          Console.WriteLine("Not Valid Pincode");
+          Console.WriteLine(" Not Valid Pincode ");
        }
 
     }
