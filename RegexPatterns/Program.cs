@@ -7,7 +7,7 @@ namespace RegexPatterns
         static void Main(string[] args)
         {
             Console.WriteLine("Printing the Regular Expression Patterns");
-            RegexExmp pinCode = new RegexExmp();
+            RegexExmp regex = new RegexExmp();
 
             // valid pincode //
             // pinCode.IsValidPinCode("400086");
@@ -16,7 +16,10 @@ namespace RegexPatterns
             // Ends with Char 
             //pinCode.IsValidPinCode("400086B"); // test case 3
             // UC 4 using validate containg Space
-            pinCode.IsValidPinCode("400 088");
+            regex.IsValidPinCode("400 088");
+            // checking for Email validation
+            regex.IsValidEmail("abc.xyz@bridgelabzs.co.in");
+
             Console.ReadLine();
         }
     }
