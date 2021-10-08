@@ -8,7 +8,7 @@ namespace RegexPatterns
     class RegexExmp
     {
         // CHECKING FOR VALIDATING INDIA  PINCODE WITHOUT CHARECTERS //
-        const string POSTAL_PIN_CHECK = "^[0-9]{6}$";
+        const string POSTAL_PIN_CHECK = "(^[1-9]{1}[0-9]{2}\\s{0,1}[0-9]{3}$)";   //[ "^[1-9]{6}$" ] for without spacing code
 
         // Function to validate the pin code of India.
        public void IsValidPinCode(string pinCode)
